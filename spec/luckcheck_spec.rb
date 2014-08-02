@@ -2,7 +2,7 @@ require 'rspec'
 require '../lib/luckcheck.rb'
 
 describe 'luckcheck' do
-	it('takes a string of numbers and returns an array of those numbers') do
-		expect(luckcheck('123')).to eq([1,2,3])
+  it('given a two digit string, returns true if the two digits are equal') do
+    expect(luckcheck('11')).to eq(true)
 	end
 end
