@@ -1,4 +1,5 @@
-require rspec
+require 'rspec'
+require '../lib/luckcheck.rb'
 
 describe 'luckcheck' do
 	it('takes a string of numbers and returns an array of those numbers') do
